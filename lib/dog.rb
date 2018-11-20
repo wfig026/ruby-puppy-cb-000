@@ -13,8 +13,6 @@ class Dog
     @@all
   end
 
-  Dog.all
-
   def clear_all
     @@all.clear => []
   end
